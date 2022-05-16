@@ -1,7 +1,8 @@
 import threading
 
 from Yae.Database import BASE, SESSION
-from sqlalchemy import Column, BigInteger, UnicodeText
+from sqlalchemy import Column, Integer, UnicodeText
+from sqlalchemy.sql.sqltypes import BigInteger
 
 
 class UserInfo(BASE):
