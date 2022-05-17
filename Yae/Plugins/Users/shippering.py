@@ -1,4 +1,3 @@
-from Yae import pbot as app
 from Yae.Plugins.error_handler import capture_err
 from Yae.Plugins.shippperingdb import get_couple, save_couple
 from pyrogram import filters
